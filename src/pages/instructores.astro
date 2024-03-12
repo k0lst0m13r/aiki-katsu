@@ -1,5 +1,11 @@
 ---
-
+const pageTitle = "INSTRUCTORES Katsumoto Dojo"
+const instructor = {
+	nombre: "Julio Branda",
+	graduacion: "1er Dan",
+	inicioPractica: "2003"
+};
+const dojos = ["Kurata Dojo", "Instituto Kumazawa", "Katsumoto Dojo"];
 ---
 
 <html lang="es">
@@ -8,11 +14,16 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>INSTRUCTORES Katsumoto Dojo</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
 		<h1>INSTRUCTORES</h1>
 		<h2>KATSUMOTO DOJO</h2>
+		<h3>{instructor.nombre}</h3>
+		<h3>Graduación: {instructor.graduacion}</h3>
+		<h3>Inicia su práctica en el año: {instructor.inicioPractica}</h3>
+		<h3>Formado en: {dojos[0]}, {dojos[1]}, {dojos[2]}</h3>
+
         <p>info, foto y video de los instructores</p>
         
 	</body>
