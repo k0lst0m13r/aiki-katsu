@@ -6,6 +6,9 @@ const instructor = {
 	inicioPractica: "2003"
 };
 const dojos = ["Kurata Dojo", "Instituto Kumazawa", "Katsumoto Dojo"];
+import "../styles/global.css";
+import Navigation from '../components/Navigation.astro';
+
 ---
 
 <html lang="es">
@@ -19,6 +22,7 @@ const dojos = ["Kurata Dojo", "Instituto Kumazawa", "Katsumoto Dojo"];
 	<body>
 		<h1>INSTRUCTORES</h1>
 		<h2>KATSUMOTO DOJO</h2>
+		<Navigation />
 		<h3>{instructor.nombre}</h3>
 		<h3>Graduación: {instructor.graduacion}</h3>
 		<h3>Inicia su práctica en el año: {instructor.inicioPractica}</h3>
