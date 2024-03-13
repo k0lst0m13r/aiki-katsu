@@ -1,7 +1,7 @@
 ---
 const pageTitle = "HORARIOS Katsumoto Dojo";
 import "../styles/global.css";
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 
 ---
 
@@ -16,6 +16,11 @@ import Navigation from '../components/Navigation.astro';
 	<body>
 		<h1>HORARIO DE TODAS LAS DISCIPLINAS</h1>
 		<h2>KATSUMOTO DOJO</h2>
-		<Navigation />
+		<Header />
+
+		<script>
+			import "../scripts/menu.js";
+		</script>
+
     </body>
 </html>

@@ -7,7 +7,7 @@ const instructor = {
 };
 const dojos = ["Kurata Dojo", "Instituto Kumazawa", "Katsumoto Dojo"];
 import "../styles/global.css";
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 
 ---
 
@@ -22,13 +22,17 @@ import Navigation from '../components/Navigation.astro';
 	<body>
 		<h1>INSTRUCTORES</h1>
 		<h2>KATSUMOTO DOJO</h2>
-		<Navigation />
+		<Header />
 		<h3>{instructor.nombre}</h3>
 		<h3>Graduación: {instructor.graduacion}</h3>
 		<h3>Inicia su práctica en el año: {instructor.inicioPractica}</h3>
 		<h3>Formado en: {dojos[0]}, {dojos[1]}, {dojos[2]}</h3>
 
         <p>info, foto y video de los instructores</p>
+
+		<script>
+			import "../scripts/menu.js";
+		</script>
         
 	</body>
 </html>
