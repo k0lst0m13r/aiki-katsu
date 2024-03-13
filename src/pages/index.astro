@@ -1,28 +1,7 @@
 ---
-import "../styles/global.css";
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-
+import Base from '../layouts/Base.astro';
+const pageTitle = "AIKIDO Katsumoto Dojo";
 ---
-
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>AIKIDO Katsumoto Dojo</title>
-	</head>
-	<body>
-		<h1>AIKIDO</h1>
-		<h2>KATSUMOTO DOJO</h2>
-		<Header />
-		<p>Novedades</p>
-		<Footer />
-
-		<script>
-			import "../scripts/menu.js";
-		</script>
-		
-	</body>
-</html>
+<Base pageTitle={pageTitle}>
+  <h2>Novedades</h2>
+</Base>

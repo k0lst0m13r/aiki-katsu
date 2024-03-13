@@ -1,30 +1,11 @@
 ---
 const pageTitle = "SOBRE Katsumoto Dojo";
-import "../styles/global.css";
-import Header from '../components/Header.astro';
+import Base from '../layouts/Base.astro';
 ---
 
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
-	</head>
-	<body>
-		<p>{pageTitle}</p>
-		<h1>NUESTRO DOJO</h1>
-		<h2>KATSUMOTO DOJO</h2>
-		<Header />
-		
-		<p>info y detalles del dojo</p>
-        <p>detalle de las demás disciplinas</p>
-        <p>link a <a href="/horarios/">horarios</a></p>
-
-		<script>
-			import "../scripts/menu.js";
-		</script>
-
-	</body>
-</html>
+<Base pageTitle={pageTitle}>
+	<h1>NUESTRO DOJO</h1>
+    <p>info y detalles del dojo</p>
+    <p>detalle de las demás disciplinas</p>
+    <p>link a <a href="/horarios/">horarios</a></p>
+</Base> 
