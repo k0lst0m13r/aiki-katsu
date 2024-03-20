@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Post.astro
 title: "Primera publicación"
 pubDate: 2024-03-11
 description: "Publicación de prueba"

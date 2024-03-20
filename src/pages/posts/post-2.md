@@ -1,5 +1,6 @@
 ---
-title: "Primera publicación"
+layout: ../../layouts/Post.astro
+title: "Segunda publicación"
 pubDate: 2024-03-11
 description: "Publicación de prueba 2"
 author: "Tete"
@@ -8,6 +9,6 @@ image:
     alt: 'mon dojo'
 tags: ["dojo", "post"]
 ---
-1. Publicación de prueba en markdown 2
-2. Corresponde al segundo post
-3. ELIMINAR ANTES DE ENTRAR EN PRODUCCIÓN
+<slot>
+    <p>Texto de prueba en el slot</p>
+</slot>

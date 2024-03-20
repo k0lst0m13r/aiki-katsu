@@ -1,5 +1,6 @@
 ---
-title: "Primera publicación"
+layout: ../../layouts/Post.astro
+title: "Tercera publicación"
 pubDate: 2024-03-11
 description: "Publicación de prueba"
 author: "Tete"
