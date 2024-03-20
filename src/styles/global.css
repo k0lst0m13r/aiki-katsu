@@ -80,4 +80,20 @@ h1 {
     display: none;
   }
 
+  .header {
+    text-align: center;
+    font-family: 'airstrike';
+    font-size: 3rem;
+  }
+  .subHeader{
+    text-align: center;
+    font-family: 'airstrike';
+  }
+
+  @font-face {
+    font-family: 'airstrike';
+    src: url('/fonts/airstrikelaser.ttf') format('truetype');
+    
+  }
+
 }

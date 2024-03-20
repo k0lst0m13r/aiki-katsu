@@ -6,6 +6,7 @@ const pageTitle = "AIKIDO Katsumoto Dojo";
 ---
 <Base pageTitle={pageTitle}>
   <h2>Novedades</h2>
+  
   <p>Lo que viene pasando en el Dojo</p>
 {allposts.map((post) => <Archivo url={post.url} title={post.frontmatter.title} />)}
 </Base>
