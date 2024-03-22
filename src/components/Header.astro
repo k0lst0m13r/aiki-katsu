@@ -1,11 +1,11 @@
 ---
 import Navigation from '../components/Navigation.astro';
 import Hamburger from '../components/Hamburger.astro';
-
+import banner from '../assets/banner.png';
 ---
 
 <header>
-    <img src="/src/images/banner.png" alt="Banner del dojo">
+    <img src={banner.src} alt="Banner del dojo" />
     <nav>
         <Hamburger />
         <Navigation />
