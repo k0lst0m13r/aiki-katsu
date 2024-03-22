@@ -32,15 +32,17 @@ body {
   padding-right: 5%;
   text-align: center;
   width: 100%;
-  top: 3rem;  
+  top: 5rem;  
   background-color: #2264bb;
-  
+  display: none;
+  margin: auto;
 }
 
 .nav-links a {
   color: #2264bb;
   display: block;
   text-align: center;
+  padding: 10px 0;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -49,7 +51,6 @@ body {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  color: black;
   background-color: #a9b6e0;
 }
 
