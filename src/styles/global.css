@@ -6,18 +6,12 @@ html {
 body {
   margin: 0 auto;
   width: 100%;
-  max-width: 80ch;
-  padding: 1rem;
+  max-width: 90%;
   line-height: 1.5;
 }
 
 * {
   box-sizing: border-box;
-}
-
-h1 {
-  margin: 1rem 0;
-  font-size: 2.5rem;
 }
 
 /* estilos de la barra de navegación*/
@@ -35,26 +29,27 @@ h1 {
 }
 
 .nav-links {
+  padding-right: 5%;
+  text-align: center;
   width: 100%;
-  top: 5rem;
-  left: 48px;
+  top: 3rem;  
   background-color: #2264bb;
-  display: none;
-  margin: 0;
+  
 }
 
 .nav-links a {
+  color: #2264bb;
   display: block;
   text-align: center;
-  padding: 10px 0;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
+  color: black;
   background-color: #a9b6e0;
 }
 
@@ -80,15 +75,6 @@ h1 {
     display: none;
   }
 
-  .header {
-    text-align: center;
-    font-family: 'airstrike';
-    font-size: 3rem;
-  }
-  .subHeader{
-    text-align: center;
-    font-family: 'airstrike';
-  }
 
   @font-face {
     font-family: 'airstrike';
