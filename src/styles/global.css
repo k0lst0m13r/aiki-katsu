@@ -19,7 +19,7 @@ header {
 }
 
 header img {
-  width: 85%;
+  width: 100%;
 }
 
 /* estilos de la barra de navegación*/
@@ -48,11 +48,12 @@ header img {
 .nav-links a {
   color: #2264bb;
   display: block;
-  text-align: center;
+  text-align: left;
   padding: 10px 0;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 1rem;
 }
 
 .nav-links a:hover,
@@ -66,8 +67,13 @@ header img {
 
 
 @media screen and (min-width: 636px) {
+  
+  header img {
+  width: 85%;
+}
+
   .nav-links {
-    margin-left: 5em;
+    margin-left: 3em;
     display: block;
     position: static;
     width: auto;
@@ -77,6 +83,7 @@ header img {
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
+    font-size: 1.5rem;
   }
 
   .hamburger {
