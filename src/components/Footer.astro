@@ -1,17 +1,27 @@
 ---
-import Social from './Social.astro';
+import ig from '../assets/ig48.png';
+import yt from '../assets/yt48.png';
+import wa from '../assets/wa48.png';
+import cl from '../assets/cl.png';
+
 ---
 
 
-<style>
-    footer {
-      display: flex;
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
-
 <footer>
-    <Social platform="github" username="k0lstom13r" />
-    <Social platform="linkedin" username="julio-branda" />
+  <div class="media">
+    <a href="https://www.youtube.com/instagram">
+      <img src={ig.src} alt="Instagram icon" />
+    </a>
+    <a href="https://www.instagram.com/">
+      <img src={yt.src} alt="Youtube icon" />
+    </a>
+    <a href="https://wa.me/1XXXXXXXXXX">
+      <img src={wa.src} alt="Whatsapp icon" />
+    </a>
+  </div>
+  <div class="copyleft">
+    <p>CopyLeft</p>
+    <img src={cl.src} alt="copyleft" /> 
+    <p>K0lst0m13r-D3vS</p>
+  </div>    
 </footer>
