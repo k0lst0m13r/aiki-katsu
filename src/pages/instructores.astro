@@ -1,22 +1,12 @@
 ---
-const pageTitle = "INSTRUCTORES Katsumoto Dojo"
-const instructor = {
-	nombre: "Julio Branda",
-	graduacion: "1er Dan",
-	inicioPractica: "2003"
-};
-const dojos = ["Kurata Dojo", "Instituto Kumazawa", "Katsumoto Dojo"];
+const pageTitle = "INSTRUCTORES Katsumoto Dojo";
 import "../styles/global.css";
 import Base from'../layouts/Base.astro';
+import Instructor from "../components/Instructor.astro";
 ---
 
 	<Base pageTitle={pageTitle}>
 		<h1>INSTRUCTORES</h1>
-		<h2>KATSUMOTO DOJO</h2>
-		<h4>{instructor.nombre}</h4>
-		<p>Graduación: {instructor.graduacion}</p>
-		<p>Inicia su práctica en el año: {instructor.inicioPractica}</p>
-		<p>Formado en: {dojos[0]}, {dojos[1]}, {dojos[2]}</p>
+		<Instructor />
 
-        <p>info, foto y video de los instructores</p>
 	</Base>

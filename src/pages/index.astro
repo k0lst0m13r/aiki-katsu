@@ -1,12 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
-import Archivo from '../components/Archivo.astro'
-const allposts = await Astro.glob('../pages/posts/*.md'); 
 const pageTitle = "AIKIDO Katsumoto Dojo";
 ---
 <Base pageTitle={pageTitle}>
-  <h2>Novedades</h2>
+  <h1>Novedades</h1>
   
   <p>Lo que viene pasando en el Dojo</p>
-{allposts.map((post) => <Archivo url={post.url} title={post.frontmatter.title} />)}
 </Base>

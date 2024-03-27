@@ -1,0 +1,17 @@
+---
+const instructores = [
+    {nombre: "Martín Arguello", graduacion: "3er Dan", inicio: "2003", dojos:"Instituto Kumazawa", foto: "/src/assets/katsu.png" },
+    {nombre: "Alejandro Luna", graduacion: "2do Dan", inicio: "2003", dojos: "Instituto Kumazawa", foto: "/src/assets/luna.png"}, 
+    {nombre: "Julio Branda", graduacion: "1er Dan", inicio: "2003", dojos: "Kurata Dojo, Instituto Kumazawa, Katsumoto Dojo.", foto: "/src/assets/tete.png"},];
+---
+{instructores.map((instructor) => (
+<article class="instructor">
+    <div>
+        <h2>{instructor.nombre} </h2>
+		<p><b>Graduación</b>: {instructor.graduacion}</p>
+        <img src={instructor.foto} alt="foto del instructor" class="foto" />
+		<p>Inicia su práctica en el año: {instructor.inicio}</p>
+		<p>Formado en: {instructor.dojos}</p>
+    </div>
+</article>
+))}
