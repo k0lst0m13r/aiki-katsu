@@ -1,27 +1,35 @@
 --- 
-import tetepic from "/src/assets/tete.png";
-const instructores = [
-    {nombre: "Martín Arguello", graduacion: "3er Dan", inicio: "2003", dojos:"Instituto Kumazawa", foto: "/src/assets/katsu.png" },
-    {nombre: "Alejandro Luna", graduacion: "2do Dan", inicio: "2003", dojos: "Instituto Kumazawa", foto: "/src/assets/luna.png"}, 
-    {nombre: "Julio Branda", graduacion: "1er Dan", inicio: "2003", dojos: "Kurata Dojo, Instituto Kumazawa, Katsumoto Dojo.", foto: "/src/assets/tete.png"},];
+import tete from "/src/assets/tete.png";
+import luna from "/src/assets/luna.png";
+import katsu from "/src/assets/katsu.png";
+
 ---
-{instructores.map((instructor) => (
 <article class="instructor">
     <div>
-        <h2>{instructor.nombre} </h2>
-		<p><b>Graduación</b>: {instructor.graduacion}</p>
-        <img src={instructor.foto} alt="foto del instructor" class="foto" />
-		<p>Inicia su práctica en el año: {instructor.inicio}</p>
-		<p>Formado en: {instructor.dojos}</p>
+        <h2>Martín Argüello</h2>
+		<p><b>Graduación</b>:3do Dan</p>
+        <img src={katsu.src} alt="foto del instructor" class="foto" />
+		<p>Inicia su práctica en el año: 2003</p>
+		<p>Formado en: Kurata Dojo, Instituto Kumazawa, Katsumoto Dojo.</p>
     </div>
 </article>
-))}
+
+<article class="instructor">
+    <div>
+        <h2>Alejandro Luna</h2>
+		<p><b>Graduación</b>:2do Dan</p>
+        <img src={luna.src} alt="foto del instructor" class="foto" />
+		<p>Inicia su práctica en el año: 2003</p>
+		<p>Formado en: Kurata Dojo, Instituto Kumazawa, Katsumoto Dojo.</p>
+    </div>
+</article>
+
 
 <article class="instructor">
     <div>
         <h2>Julio Branda</h2>
 		<p><b>Graduación</b>:1er Dan</p>
-        <img src={tetepic.src} alt="foto del instructor" class="foto" />
+        <img src={tete.src} alt="foto del instructor" class="foto" />
 		<p>Inicia su práctica en el año: 2003</p>
 		<p>Formado en: Varios dojos</p>
     </div>

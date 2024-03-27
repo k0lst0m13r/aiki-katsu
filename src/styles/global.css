@@ -151,6 +151,12 @@ footer {
     padding: 10%; 
   }
 
+  .instructor {
+    display: inline-flex;
+    width: 30%;
+    margin-right: 3%;
+  }
+
 }
 
  
