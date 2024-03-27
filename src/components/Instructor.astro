@@ -1,4 +1,5 @@
----
+--- 
+import tetepic from "/src/assets/tete.png";
 const instructores = [
     {nombre: "Martín Arguello", graduacion: "3er Dan", inicio: "2003", dojos:"Instituto Kumazawa", foto: "/src/assets/katsu.png" },
     {nombre: "Alejandro Luna", graduacion: "2do Dan", inicio: "2003", dojos: "Instituto Kumazawa", foto: "/src/assets/luna.png"}, 
@@ -15,3 +16,13 @@ const instructores = [
     </div>
 </article>
 ))}
+
+<article class="instructor">
+    <div>
+        <h2>Julio Branda</h2>
+		<p><b>Graduación</b>:1er Dan</p>
+        <img src={tetepic.src} alt="foto del instructor" class="foto" />
+		<p>Inicia su práctica en el año: 2003</p>
+		<p>Formado en: Varios dojos</p>
+    </div>
+</article>
