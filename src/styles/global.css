@@ -12,7 +12,8 @@ body {
 
 h1 {
   font-family: "airstrike";
-  font-size: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 * {
@@ -73,7 +74,21 @@ header img {
 }
 
 .instructor {
-  padding-bottom: 3%;
+  padding: 0 4%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.instructor h2 {
+  margin-bottom: 0%;
+}
+
+.instructor p {
+  text-align: left;
+}
+
+.dan {
+  font-size: 1rem;
 }
 
 .foto {
@@ -117,6 +132,10 @@ footer {
 
   h1 {
     font-size: 3rem;
+    text-align: left;
+    padding-left: 3rem;
+    margin-top: 6rem;
+
   }
 
   .nav-links {
@@ -153,8 +172,10 @@ footer {
 
   .instructor {
     display: inline-flex;
-    width: 30%;
-    margin-right: 3%;
+    width: 33%;
+    text-align: center;
+    justify-content: center;
+   
   }
 
 }
