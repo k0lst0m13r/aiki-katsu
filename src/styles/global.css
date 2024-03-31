@@ -23,6 +23,7 @@ h1 {
 /* -------HEADER------- */
 
 header {
+  padding-top: 1rem;
   text-align: center;
 }
 
@@ -32,16 +33,22 @@ header img {
 
 /* estilos de la barra de navegación*/
 .hamburger {
-  padding-right: 20px;
   cursor: pointer;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+  padding: 1px;
+  border: solid 1px ;
+  border-color: #4e5153;
+  border-radius: 5px;
 }
 
 .hamburger .line {
   display: block;
   width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: #2264bb;
+  height: 3px;
+  margin: 3px auto;
+  background-color: #4e5153;
 }
 
 .nav-links {
