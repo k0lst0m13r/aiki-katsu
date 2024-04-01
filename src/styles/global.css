@@ -102,6 +102,11 @@ header img {
   width: 15rem;
 }
 
+.horarios {
+  margin: auto;
+  width: 100%;
+}
+
 /* ------FOOTER------- */
 
 footer {

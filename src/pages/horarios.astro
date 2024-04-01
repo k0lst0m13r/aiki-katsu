@@ -1,8 +1,10 @@
 ---
 const pageTitle = "HORARIOS Katsumoto Dojo";
 import Base from'../layouts/Base.astro';
+import horarios from '../assets/horarios.png'
 ---
 <Base>
-	<h2>HORARIO DE TODAS LAS DISCIPLINAS</h2>
-	<h2>KATSUMOTO DOJO</h2>
+	<h1>HORARIOS</h1>
+	<img src={horarios.src} alt="horarios del doja" class="horarios">
+	<p>Se recomienda llegar 15 minutos antes.</p>
 </Base>
