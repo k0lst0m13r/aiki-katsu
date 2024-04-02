@@ -1,7 +1,6 @@
 ---
 const pageTitle = "HORARIOS Katsumoto Dojo";
 import Base from'../layouts/Base.astro';
-
 ---
 <Base>
 	<h1>HORARIOS</h1>
@@ -11,14 +10,8 @@ import Base from'../layouts/Base.astro';
 	</div>	 
 
 
-	<script >
-		import desktop from '../assets/desktop.png'
-        import mobile from '../assets/mobile.png'
-		const imgUrl = window.innerWidth <= 800 ? 
-		document.getElementById('clases').setAttribute('src', '/src/assets/mobile.png') :
-		document.getElementById('clases').setAttribute('src', '/src/assets/desktop.png');		
-		
-		
+	<script>
+		import "../scripts/horarios.js";			
 	</script>
 
 </Base>
