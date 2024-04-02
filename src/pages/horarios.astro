@@ -1,12 +1,24 @@
 ---
 const pageTitle = "HORARIOS Katsumoto Dojo";
 import Base from'../layouts/Base.astro';
-import horarios from '../assets/practica.png'
+
 ---
 <Base>
 	<h1>HORARIOS</h1>
 	<div class="horarios">
-		<img src={horarios.src} alt="horarios del dojo" >
+		<img alt="Horarios" id="clases" />
 		<p>Se recomienda llegar 15 minutos antes.</p>
-	</div>
+	</div>	 
+
+
+	<script >
+		import desktop from '../assets/desktop.png'
+        import mobile from '../assets/mobile.png'
+		const imgUrl = window.innerWidth <= 800 ? 
+		document.getElementById('clases').setAttribute('src', '/src/assets/mobile.png') :
+		document.getElementById('clases').setAttribute('src', '/src/assets/desktop.png');		
+		
+		
+	</script>
+
 </Base>

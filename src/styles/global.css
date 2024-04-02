@@ -104,12 +104,15 @@ header img {
 
 .horarios {
   margin: auto;
-  text-align: center;
   padding: 2rem;
+  text-align: right;
 }
+
 .horarios img {
   width: 100%;
+  margin-bottom: 3rem;
 }
+
 
 /* ------FOOTER------- */
 
@@ -195,7 +198,7 @@ footer {
   }
 
   .horarios img {
-    width: 60%;
+    width: 100%;
   }
 
 }
