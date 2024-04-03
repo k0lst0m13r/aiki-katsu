@@ -110,7 +110,7 @@ header img {
 }
 
 .principal img{
-  width: 90%;
+  width: 100%;
   margin-top: 1rem; 
 }
 
@@ -228,10 +228,7 @@ footer {
   .principal {
     text-align: right;
   }
-  .principal img{
-    width: 100%;
-  }
-
+  
   .instructor {
     display: inline-flex;
     width: 33%;
