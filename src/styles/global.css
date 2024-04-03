@@ -80,6 +80,30 @@ header img {
   display: unset;
 }
 
+/* -----HOME------- */
+
+.home {
+  margin-top: 3rem;
+}
+
+.home-articulo {
+  width: 100%;
+  height: 20rem;
+  display: inline-flex;
+}
+
+.cita {
+  width: 30%;
+  height: auto;  
+  background-color: black;
+}
+
+.articulo {
+  width: 70%;
+  height: auto;
+  background-color: white;
+}
+
 .principal {
   width: 100%;
   text-align: center;
@@ -89,6 +113,8 @@ header img {
   width: 90%;
   margin-top: 1rem; 
 }
+
+/* ------INSTRUCTORES----- */
 
 .instructor {
   padding: 0 4%;
