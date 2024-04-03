@@ -1,9 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
 const pageTitle = "AIKIDO Katsumoto Dojo";
+import principal from '../assets/principal.png';
 ---
 <Base pageTitle={pageTitle}>
-  <h1>Novedades</h1>
-  
-  <p>Lo que viene pasando en el Dojo</p>
+  <div class="principal">
+    <img src={principal.src} alt="Imagen principal del index">
+    <span>Sensei Argüello, técnica: koshinage.</span> 
+
+  </div>  
 </Base>

@@ -80,6 +80,16 @@ header img {
   display: unset;
 }
 
+.principal {
+  width: 100%;
+  text-align: center;
+}
+
+.principal img{
+  width: 90%;
+  margin-top: 1rem; 
+}
+
 .instructor {
   padding: 0 4%;
   text-align: center;
@@ -187,6 +197,13 @@ footer {
   .media {
     display: flex; 
     padding: 10%; 
+  }
+
+  .principal {
+    text-align: right;
+  }
+  .principal img{
+    width: 100%;
   }
 
   .instructor {
