@@ -86,22 +86,15 @@ header img {
   margin-top: 3rem;
 }
 
-.home-articulo {
-  width: 100%;
-  height: 20rem;
-  display: inline-flex;
-}
-
-.cita {
-  width: 30%;
-  height: auto;  
-  background-color: black;
-}
 
 .articulo {
-  width: 70%;
+  color: white;
+  width: 100%;
   height: auto;
-  background-color: white;
+  text-align: center;
+  background-color: black;
+  padding: 0.5rem 0;
+  font-size: 1.8rem;
 }
 
 .principal {
@@ -111,7 +104,6 @@ header img {
 
 .principal img{
   width: 100%;
-  margin-top: 1rem; 
 }
 
 /* ------INSTRUCTORES----- */
