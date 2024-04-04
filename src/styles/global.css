@@ -93,17 +93,20 @@ header img {
   height: auto;
   text-align: center;
   background-color: black;
-  padding: 0.5rem 0;
-  font-size: 1.8rem;
+  padding: 0.5rem 3rem;
+  font-size: 1.8rem;  
 }
+
 
 .principal {
   width: 100%;
   text-align: center;
+  background-color: black;
 }
 
 .principal img{
   width: 100%;
+  padding-bottom: 1rem;
 }
 
 /* ------INSTRUCTORES----- */
